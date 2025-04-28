@@ -23,14 +23,16 @@ export const PROJECTS = [
       "Developed a comprehensive banking system with features like account creation, deposits, withdrawals, balance inquiry, mini-statement generation, PIN change, and account closure. Ensured secure transaction handling and efficient database management.",
     technologies: ["Java", "JDBC", "MySQL", "IntelliJ IDEA"],
   },
-  {
-    title: "Integrated Hospital Management Website",
-    image: project2,
-    description:
-      "Built a responsive website for managing hospital operations, including appointment scheduling, patient records, and staff management. Delivered a user-friendly interface with cross-device compatibility.",
-    technologies: ["HTML", "CSS", "Bootstrap"],
-    livePreview: "https://sheikrizwan27.github.io/integrated-hospital-website/",
-  },
+  
+    {
+      title: "Integrated Hospital Management Website",
+      image: project2, // Replace `project2` with the appropriate image path or variable.
+      description:
+        "Built a responsive website for managing hospital operations, including appointment scheduling, patient records, and staff management. Delivered a user-friendly interface with cross-device compatibility.",
+      technologies: ["HTML", "CSS", "Bootstrap", "React JS", "Spring Boot", "PostgreSQL"],
+    }
+
+  ,
   {
     title: "Food Blog Website",
     image: project3,
