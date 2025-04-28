@@ -59,14 +59,7 @@ const Footer = () => {
           >
             <FaMapMarkerAlt className="text-xl text-red-500" /> {CONTACT.address}
           </motion.p>
-          <motion.p
-            whileInView={{ opacity: 1, x: 0 }}
-            initial={{ opacity: 0, x: 20 }}
-            transition={{ duration: 0.5 }}
-            className="text-lg my-4 flex items-center gap-3 hover:scale-105"
-          >
-            <FaPhoneAlt className="text-xl text-green-500" /> {CONTACT.phoneNo}
-          </motion.p>
+       
           <a
             href={`mailto:${CONTACT.email}`}
             className="inline-flex items-center gap-3 text-lg font-medium hover:text-blue-400 transition-all duration-300"

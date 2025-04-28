@@ -69,6 +69,5 @@ export const ACCESS_KEY = '7b22c50e-9d41-44ee-a12a-aa08eef4b697';
 
 export const CONTACT = {
   address: "Tirunelveli ,Tamil Nadu",
-  phoneNo: "+91 7339512003",
   email: "sheikrizwan27@gmail.com",
 };
