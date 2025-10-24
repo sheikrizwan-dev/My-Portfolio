@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp, FaMapMarkerAlt, FaPhoneAlt, FaCheckCircle } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope, FaWhatsapp, FaMapMarkerAlt, FaCheckCircle } from "react-icons/fa";
 import { ACCESS_KEY, CONTACT } from "../constants";
 
 const Footer = () => {
@@ -22,8 +21,6 @@ const Footer = () => {
       });
 
       const data = await response.json();
-      console.log("Web3Forms Response:", data); // Debugging
-
       if (data.success) {
         setResult("Form Submitted Successfully!");
         event.target.reset();
@@ -31,7 +28,6 @@ const Footer = () => {
         setResult(`Error: ${data.message}`);
       }
     } catch (error) {
-      console.error("Web3Forms Error:", error);
       setResult("Submission failed. Try again later.");
     }
 
@@ -60,41 +56,12 @@ const Footer = () => {
           >
             <FaMapMarkerAlt className="text-xl text-red-500" /> {CONTACT.address}
           </motion.p>
-       
           <a
             href={`mailto:${CONTACT.email}`}
             className="inline-flex items-center gap-3 text-lg font-medium hover:text-blue-400 transition-all duration-300"
           >
             <FaEnvelope className="text-xl text-yellow-500" /> {CONTACT.email}
           </a>
-
-          {/* Social Media & WhatsApp */}
-          <div className="flex justify-center md:justify-start gap-8 mt-8">
-            <a
-              href="https://github.com/sheikrizwan27"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-3xl hover:text-gray-400 transition-all duration-300 transform hover:scale-110"
-            >
-              <FaGithub />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/sheikrizwan27/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-3xl hover:text-blue-500 transition-all duration-300 transform hover:scale-110"
-            >
-              <FaLinkedin />
-            </a>
-            <a
-              href="https://wa.me/917339512003"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-3xl hover:text-green-500 transition-all duration-300 transform hover:scale-110"
-            >
-              <FaWhatsapp />
-            </a>
-          </div>
         </div>
 
         {/* Right Section - Contact Form */}
@@ -134,7 +101,6 @@ const Footer = () => {
             Send Message
           </button>
 
-          {/* Submission Result Message */}
           {result && (
             <div className="mt-4 flex items-center gap-2 text-white">
               <FaCheckCircle className="text-green-400" />
@@ -144,7 +110,6 @@ const Footer = () => {
         </form>
       </div>
 
-      {/* Submission Result Div */}
       {submitted && (
         <div className="mt-8 p-4 bg-green-500 text-white rounded-lg shadow-lg">
           <h3 className="text-2xl font-bold mb-2">Thank you!</h3>
@@ -152,52 +117,11 @@ const Footer = () => {
         </div>
       )}
 
-      {/* Copyright */}
       <p className="text-center text-sm text-gray-400 mt-12">
         © {new Date().getFullYear()} Sheik Rizwan. All rights reserved.
       </p>
     </div>
   );
 };
-=======
-import { CONTACT } from "../constants";
-import { motion } from "framer-motion";
-
-const Footer = () => {
-  return (
-    <div className="border-b border-neutral-900 pb-20">
-      <motion.h2
-        whileInView={{ opacity: 1, y: 0 }}
-        initial={{ opacity: 0, y: -100 }}
-        transition={{ duration: 0.5 }}
-        className="my-10 text-center text-4xl"
-      >
-        Get In Touch
-      </motion.h2>
-      <div className="text-center tracking-tighter">
-        <motion.p
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: -20 }}
-          transition={{ duration: 0.5 }}
-          className="my-4"
-        >
-          {CONTACT.address}
-        </motion.p>
-        <motion.p
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 20 }}
-          transition={{ duration: 0.5 }}
-          className="my-4"
-        >
-          {CONTACT.phoneNo}
-        </motion.p>
-        <a href={`mailto:${CONTACT.email}`} className="border-b">
-          {CONTACT.email}
-        </a>
-      </div>
-    </div>
-  );
-}
->>>>>>> 5159629c22b5ca20edaa96ba6a9a76b6f04aacd5
 
 export default Footer;
