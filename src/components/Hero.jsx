@@ -54,11 +54,7 @@ const Hero = () => {
               Full Stack Java Developer
             </motion.span>
             <motion.p
-<<<<<<< HEAD
               className="my-2 max-w-xl py-6 font-light lg:text-lg lg:leading-8 "
-=======
-              className="my-2 max-w-xl py-6 font-light tracking-tighter herocontent"
->>>>>>> 5159629c22b5ca20edaa96ba6a9a76b6f04aacd5
               initial={{ x: -100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.8 }}  
@@ -67,10 +63,7 @@ const Hero = () => {
             </motion.p>
             <motion.a
               href={resume} 
-<<<<<<< HEAD
               download="Sheik_Rizwan_CV.pdf" 
-=======
->>>>>>> 5159629c22b5ca20edaa96ba6a9a76b6f04aacd5
               target="_blank"
               rel="noopener noreferrer"
               className="mb-6 lg:mt-2 px-6 py-2 text-white bg-purple-600 rounded-lg shadow hover:bg-purple-700 transition"
@@ -92,10 +85,7 @@ const Hero = () => {
             <motion.img
               src={profilePic}
               alt="profile"
-<<<<<<< HEAD
               className="max-h-[600px] w-auto max-w-full object-cover rounded-lg shadow-lg"
-=======
->>>>>>> 5159629c22b5ca20edaa96ba6a9a76b6f04aacd5
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5 }}
