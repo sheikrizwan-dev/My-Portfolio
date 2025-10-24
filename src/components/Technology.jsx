@@ -1,6 +1,6 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaJava } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaJava, FaPython } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
-import { SiSpring, SiMysql, SiPostman, SiTailwindcss, SiBootstrap, SiPostgresql } from "react-icons/si";
+import { SiSpring, SiMysql, SiPostman, SiTailwindcss, SiBootstrap, SiPostgresql, SiReact, SiDocker } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
 import { motion } from "framer-motion";
 
@@ -19,6 +19,24 @@ const iconVariants = (duration) => ({
 });
 
 const Technology = () => {
+  const techIcons = [
+    { icon: <FaHtml5 />, name: "HTML5", color: "text-orange-500", duration: 2.5 },
+    { icon: <FaCss3Alt />, name: "CSS3", color: "text-blue-500", duration: 3 },
+    { icon: <SiTailwindcss />, name: "Tailwind CSS", color: "text-cyan-400", duration: 3 },
+    { icon: <SiBootstrap />, name: "Bootstrap", color: "text-purple-500", duration: 4 },
+    { icon: <FaJs />, name: "JavaScript", color: "text-yellow-400", duration: 4 },
+    { icon: <RiReactjsLine />, name: "React JS", color: "text-cyan-400", duration: 2 },
+    { icon: <SiReact />, name: "React Native", color: "text-blue-400", duration: 3.5 },
+    { icon: <FaJava />, name: "Java", color: "text-orange-600", duration: 5 },
+    { icon: <FaPython />, name: "Python", color: "text-blue-500", duration: 3 },
+    { icon: <SiSpring />, name: "Spring", color: "text-green-500", duration: 6 },
+    { icon: <SiMysql />, name: "MySQL", color: "text-blue-500", duration: 4 },
+    { icon: <SiPostgresql />, name: "PostgreSQL", color: "text-green-600", duration: 5 },
+    { icon: <SiDocker />, name: "Docker", color: "text-blue-600", duration: 4 },
+    { icon: <BsGithub />, name: "GitHub", color: "text-white", duration: 3.5 },
+    { icon: <SiPostman />, name: "Postman", color: "text-orange-400", duration: 5.5 },
+  ];
+
   return (
     <div className="border-b border-neutral-800 pb-24">
       <motion.h2
@@ -33,112 +51,20 @@ const Technology = () => {
         whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0, x: -100 }}
         transition={{ duration: 1.5 }}
-        className="flex flex-wrap items-center justify-center gap-4"
+        className="flex flex-wrap items-center justify-center gap-6"
       >
-        <motion.div
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-          variants={iconVariants(2.5)}
-          initial="initial"
-          animate="animate"
-        >
-          <FaHtml5 className="text-5xl text-orange-500" />
-        </motion.div>
-        <motion.div
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-          variants={iconVariants(3)}
-          initial="initial"
-          animate="animate"
-        >
-          <FaCss3Alt className="text-5xl text-blue-500" />
-        </motion.div>
-        
-
-        <motion.div
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-          variants={iconVariants(3)}
-          initial="initial"
-          animate="animate"
-        >
-          <SiTailwindcss className="text-5xl text-cyan-400" />
-        </motion.div>
-        <motion.div
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-          variants={iconVariants(4)}
-          initial="initial"
-          animate="animate"
-        >
-          <SiBootstrap className="text-5xl text-purple-500" />
-        </motion.div>
-
-        <motion.div
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-          variants={iconVariants(4)}
-          initial="initial"
-          animate="animate"
-        >
-          <FaJs className="text-5xl text-yellow-400" />
-        </motion.div>
-
-        <motion.div
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-          variants={iconVariants(2)}
-          initial="initial"
-          animate="animate"
-        >
-          <RiReactjsLine className="text-5xl text-cyan-400" />
-        </motion.div>
-        <motion.div
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-          variants={iconVariants(5)}
-          initial="initial"
-          animate="animate"
-        >
-          <FaJava className="text-5xl text-orange-600" />
-        </motion.div>
-        <motion.div
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-          variants={iconVariants(6)}
-          initial="initial"
-          animate="animate"
-        >
-          <SiSpring className="text-5xl text-green-500" />
-        </motion.div>
-        <motion.div
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-          variants={iconVariants(4)}
-          initial="initial"
-          animate="animate"
-        >
-          <SiMysql className="text-5xl text-blue-500" />
-        </motion.div>
-
-        <motion.div
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-          variants={iconVariants(5)}
-          initial="initial"
-          animate="animate"
-        >
-          <SiPostgresql className="text-5xl text-green-600" />
-        </motion.div>
-        <motion.div
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-          variants={iconVariants(3.5)}
-          initial="initial"
-          animate="animate"
-        >
-          <BsGithub className="text-5xl text-white" />
-        </motion.div>
-        <motion.div
-          className="rounded-2xl border-4 border-neutral-800 p-4"
-          variants={iconVariants(5.5)}
-          initial="initial"
-          animate="animate"
-        >
-          <SiPostman className="text-5xl text-orange-400" />
-        </motion.div>
-        {/* New Icons */}
-        
-        
+        {techIcons.map((tech, index) => (
+          <motion.div
+            key={index}
+            className="flex flex-col items-center rounded-2xl border-4 border-neutral-800 p-4"
+            variants={iconVariants(tech.duration)}
+            initial="initial"
+            animate="animate"
+          >
+            <div className={`text-5xl ${tech.color}`}>{tech.icon}</div>
+            <span className="mt-2 text-sm text-neutral-300">{tech.name}</span>
+          </motion.div>
+        ))}
       </motion.div>
     </div>
   );

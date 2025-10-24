@@ -5,34 +5,25 @@ import project4 from "../assets/projects/landing java.png";
 import project5 from "../assets/projects/tasty corner.png";
 import project6 from "../assets/projects/portfolio.png";
 
+export const HERO_CONTENT = `Full Stack Developer building robust, scalable, and user-focused web and mobile applications. Passionate about solving real-world problems, delivering innovative solutions, and continuously learning to grow professionally.`;
 
-
-export const HERO_CONTENT = `As a highly motivated Full Stack Java Developer, I specialize in building robust, scalable, and user-centric web applications. With expertise in Java, Spring Boot, and MySQL on the back-end, combined with front-end technologies like React, Tailwind CSS, and Bootstrap, I deliver seamless and efficient solutions. I am committed to leveraging my technical skills and problem-solving abilities to contribute to innovative projects that drive organizational success while continuously enhancing my knowledge in the evolving field of software development.
-`;
-
-export const ABOUT_TEXT = `Hi, I’m Sheik Rizwan, a recent graduate with a Bachelor's degree in Computer Science Engineering. I am eager to start my career as a Full Stack Java Developer, leveraging my strong foundation in programming, web development, and problem-solving. I have gained proficiency in technologies such as Java, JavaScript, HTML, CSS, React.js, Tailwind CSS, Bootstrap, Spring Boot, and MySQL.
-
-I am passionate about creating innovative and efficient software solutions and continuously enhancing my technical expertise. With excellent problem-solving abilities, a strong work ethic, and a commitment to learning, I am confident in my ability to contribute effectively to dynamic and collaborative teams.`;
-
-
+export const ABOUT_TEXT = `Hi, I’m Sheik Rizwan, a Full Stack Developer with hands-on experience in web and mobile development. I work with Java, Python, JavaScript, React.js, React Native, Tailwind CSS, Bootstrap, Spring Boot, and MySQL. I enjoy creating efficient software solutions, collaborating in dynamic teams, and continuously learning to enhance my skills and deliver high-quality results. My focus is on building applications that are not only functional but also user-friendly and scalable.`;
+// Projects section
 export const PROJECTS = [
   {
     title: "Bank Management System",
-    image: project1, // Replace with the correct path to your image
+    image: project1,
     description:
       "Developed a comprehensive banking system with features like account creation, deposits, withdrawals, balance inquiry, mini-statement generation, PIN change, and account closure. Ensured secure transaction handling and efficient database management.",
     technologies: ["Java", "JDBC", "MySQL", "IntelliJ IDEA"],
   },
-  
-    {
-      title: "Integrated Hospital Management Website",
-      image: project2, // Replace `project2` with the appropriate image path or variable.
-      description:
-        "Built a responsive website for managing hospital operations, including appointment scheduling, patient records, and staff management. Delivered a user-friendly interface with cross-device compatibility.",
-      technologies: ["HTML", "CSS", "Bootstrap", "React JS", "Spring Boot", "PostgreSQL"],
-    }
-
-  ,
+  {
+    title: "Integrated Hospital Management Website",
+    image: project2,
+    description:
+      "Built a responsive website for managing hospital operations, including appointment scheduling, patient records, and staff management. Delivered a user-friendly interface with cross-device compatibility.",
+    technologies: ["HTML", "CSS", "Bootstrap", "React JS", "Spring Boot", "PostgreSQL"],
+  },
   {
     title: "Food Blog Website",
     image: project3,
@@ -54,7 +45,7 @@ export const PROJECTS = [
     image: project5,
     description:
       "Designed as a delightful food ordering platform, Tasty Corner offers a variety of dessert items, allowing users to search for their favorite treats, add them to their cart, and generate the total bill effortlessly.",
-    technologies: ["HTML", "CSS","React Js"],
+    technologies: ["HTML", "CSS", "React JS"],
     livePreview: "https://tastycorner.netlify.app/",
   },
   {
@@ -67,9 +58,11 @@ export const PROJECTS = [
   },
 ];
 
+// Example access key (if needed for API integrations)
 export const ACCESS_KEY = '7b22c50e-9d41-44ee-a12a-aa08eef4b697';
 
+// Contact information
 export const CONTACT = {
-  address: "Tirunelveli ,Tamil Nadu",
+  address: "Tirunelveli, Tamil Nadu",
   email: "sheikrizwan27@gmail.com",
 };

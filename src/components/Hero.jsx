@@ -63,6 +63,7 @@ const Hero = () => {
             </motion.p>
             <motion.a
               href={resume} 
+              download="Sheik_Rizwan_CV.pdf" 
               target="_blank"
               rel="noopener noreferrer"
               className="mb-6 lg:mt-2 px-6 py-2 text-white bg-purple-600 rounded-lg shadow hover:bg-purple-700 transition"
