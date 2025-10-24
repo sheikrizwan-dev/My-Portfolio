@@ -6,3 +6,15 @@
 :root {
   font-family: "Inter", sans-serif;
 }
+<<<<<<< HEAD
+=======
+
+.herocontent{
+  line-height: 30px;
+}
+.myimage img{
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+}
+>>>>>>> 5159629c22b5ca20edaa96ba6a9a76b6f04aacd5

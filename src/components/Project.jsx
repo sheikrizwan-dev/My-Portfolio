@@ -33,7 +33,11 @@ const Project = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
+<<<<<<< HEAD
               className="w-full max-w-xl lg:w-3/4 lg:px-10"
+=======
+              className="w-full max-w-xl lg:w-3/4"
+>>>>>>> 5159629c22b5ca20edaa96ba6a9a76b6f04aacd5
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
               <p className="mb-4 text-neutral-400">{project.description}</p>
@@ -47,17 +51,37 @@ const Project = () => {
                   </span>
                 ))}
               </div>
+<<<<<<< HEAD
              {/* Conditionally render buttons only if livePreview is available */}
              {project.title !== "Bank Management System" && project.livePreview && (
+=======
+             {/* Conditionally render buttons only if livePreview and sourceCode are available */}
+             {project.title !== "Bank Management System" && (
+>>>>>>> 5159629c22b5ca20edaa96ba6a9a76b6f04aacd5
                 <div>
                   <a
                     href={project.livePreview}
                     target="_blank"
                     rel="noopener noreferrer"
+<<<<<<< HEAD
                     className="rounded bg-purple-700 px-4 py-2 text-sm font-medium text-white hover:bg-purple-800"
                   >
                     Live Preview
                   </a>
+=======
+                    className="mr-4 rounded bg-purple-700 px-4 py-2 text-sm font-medium text-white hover:bg-purple-800"
+                  >
+                    Live Preview
+                  </a>
+                  <a
+                    href={project.sourceCode}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded bg-neutral-700 px-4 py-2 text-sm font-medium text-white hover:bg-neutral-800"
+                  >
+                    Source Code
+                  </a>
+>>>>>>> 5159629c22b5ca20edaa96ba6a9a76b6f04aacd5
                 </div>
               )}
             </motion.div>

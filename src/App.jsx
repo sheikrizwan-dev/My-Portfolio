@@ -1,4 +1,8 @@
 import About from "./components/About";
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5159629c22b5ca20edaa96ba6a9a76b6f04aacd5
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -18,8 +22,17 @@ const App = () => {
         <Hero />
         <About/>
         <Technology/>
+<<<<<<< HEAD
         <Project/>
         <Footer/>
+=======
+        {/* <Experience/> */}
+        <Project/>
+        <Footer/>
+        
+     
+      
+>>>>>>> 5159629c22b5ca20edaa96ba6a9a76b6f04aacd5
       
       </div>
     </div>
