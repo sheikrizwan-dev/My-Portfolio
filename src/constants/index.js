@@ -65,7 +65,7 @@ export const PROJECTS = [
 
 // Contact information
 export const CONTACT = {
-  address: "No.17, 3rd Street, Tirunelveli, Tamil Nadu",
+  address: "Tirunelveli, Tamil Nadu",
   phoneNo: "+91 7339512003",
   email: "sheikrizwan27@gmail.com",
 };
