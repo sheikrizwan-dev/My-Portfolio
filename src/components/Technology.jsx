@@ -1,6 +1,6 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaJava } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaJava} from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
-import { SiSpring, SiMysql, SiPostman, SiDocker, SiReact, SiPython } from "react-icons/si";
+import { SiSpring, SiMysql, SiPostman, SiDocker, SiReact,SiPython } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
 import { motion } from "framer-motion";
 
@@ -28,7 +28,9 @@ const techStack = [
   { icon: <FaJava className="text-5xl text-[#007396]" />, name: "Java" },
   { icon: <SiSpring className="text-5xl text-[#6DB33F]" />, name: "Spring Boot" },
   { icon: <SiMysql className="text-5xl text-[#4479A1]" />, name: "MySQL" },
-  { icon: <SiPython className="text-5xl" />, name: "Python" },
+
+    { icon: <SiPython className="text-5xl text-[#4479A1]"/>, color: "#3776AB", name: "Python" },
+
   { icon: <SiDocker className="text-5xl text-[#2496ED]" />, name: "Docker" },
   { icon: <BsGithub className="text-5xl text-white" />, name: "GitHub" },
   { icon: <SiPostman className="text-5xl text-[#FF6C37]" />, name: "Postman" },

@@ -3,9 +3,8 @@ import project2 from "../assets/projects/hospital website.png";
 import project3 from "../assets/projects/food blog.png";
 import project1 from "../assets/projects/bank-management.webp";
 
+export const HERO_CONTENT = `I am a Full Stack Developer passionate about building robust, scalable, and user-centric web applications. Skilled in Java, Python, and Spring Boot on the backend, and React, React Native, Tailwind CSS, and Bootstrap on the frontend. Proficient with databases like MySQL and PostgreSQL, and tools including Git, GitHub, Docker, Postman, and RESTful APIs. I thrive on creating innovative solutions, solving complex problems, and continuously expanding my technical expertise to deliver impactful projects.`;
 
-export const HERO_CONTENT = `As a highly motivated Full Stack Java Developer, I specialize in building robust, scalable, and user-centric web applications. With expertise in Java, Spring Boot, and MySQL on the back-end, combined with front-end technologies like React, Tailwind CSS, and Bootstrap, I deliver seamless and efficient solutions. I am committed to leveraging my technical skills and problem-solving abilities to contribute to innovative projects that drive organizational success while continuously enhancing my knowledge in the evolving field of software development.
-`;
 
 export const ABOUT_TEXT = `Hi, I’m Sheik Rizwan, a recent graduate with a Bachelor's degree in Computer Science Engineering. I am eager to start my career as a Full Stack Java Developer, leveraging my strong foundation in programming, web development, and problem-solving. I have gained proficiency in technologies such as Java, JavaScript, HTML, CSS, React.js, Tailwind CSS, Bootstrap, Spring Boot, and MySQL.
 
