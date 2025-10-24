@@ -1,6 +1,6 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaJava } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaJava, FaPython } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
-import { SiSpring, SiMysql, SiPostman } from "react-icons/si";
+import { SiSpring, SiMysql, SiPostman, SiDocker, SiReact, SiReacthookform } from "react-icons/si";
 import { BsGithub } from "react-icons/bs";
 import { motion } from "framer-motion";
 
@@ -35,6 +35,7 @@ const Technology = () => {
         transition={{ duration: 1.5 }}
         className="flex flex-wrap items-center justify-center gap-4"
       >
+        {/* HTML */}
         <motion.div
           className="rounded-2xl border-4 border-neutral-800 p-4"
           variants={iconVariants(2.5)}
@@ -43,6 +44,8 @@ const Technology = () => {
         >
           <FaHtml5 className="text-5xl text-orange-500" />
         </motion.div>
+
+        {/* CSS */}
         <motion.div
           className="rounded-2xl border-4 border-neutral-800 p-4"
           variants={iconVariants(3)}
@@ -51,6 +54,8 @@ const Technology = () => {
         >
           <FaCss3Alt className="text-5xl text-blue-500" />
         </motion.div>
+
+        {/* JavaScript */}
         <motion.div
           className="rounded-2xl border-4 border-neutral-800 p-4"
           variants={iconVariants(4)}
@@ -59,6 +64,8 @@ const Technology = () => {
         >
           <FaJs className="text-5xl text-yellow-400" />
         </motion.div>
+
+        {/* React */}
         <motion.div
           className="rounded-2xl border-4 border-neutral-800 p-4"
           variants={iconVariants(2)}
@@ -67,6 +74,18 @@ const Technology = () => {
         >
           <RiReactjsLine className="text-5xl text-cyan-400" />
         </motion.div>
+
+        {/* React Native */}
+        <motion.div
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+          variants={iconVariants(3.5)}
+          initial="initial"
+          animate="animate"
+        >
+          <SiReact className="text-5xl text-cyan-500" />
+        </motion.div>
+
+        {/* Java */}
         <motion.div
           className="rounded-2xl border-4 border-neutral-800 p-4"
           variants={iconVariants(5)}
@@ -75,6 +94,8 @@ const Technology = () => {
         >
           <FaJava className="text-5xl text-orange-600" />
         </motion.div>
+
+        {/* Spring */}
         <motion.div
           className="rounded-2xl border-4 border-neutral-800 p-4"
           variants={iconVariants(6)}
@@ -83,6 +104,8 @@ const Technology = () => {
         >
           <SiSpring className="text-5xl text-green-500" />
         </motion.div>
+
+        {/* MySQL */}
         <motion.div
           className="rounded-2xl border-4 border-neutral-800 p-4"
           variants={iconVariants(4)}
@@ -91,6 +114,28 @@ const Technology = () => {
         >
           <SiMysql className="text-5xl text-blue-500" />
         </motion.div>
+
+        {/* Python */}
+        <motion.div
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+          variants={iconVariants(4.5)}
+          initial="initial"
+          animate="animate"
+        >
+          <FaPython className="text-5xl text-yellow-500" />
+        </motion.div>
+
+        {/* Docker */}
+        <motion.div
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+          variants={iconVariants(5.5)}
+          initial="initial"
+          animate="animate"
+        >
+          <SiDocker className="text-5xl text-blue-400" />
+        </motion.div>
+
+        {/* GitHub */}
         <motion.div
           className="rounded-2xl border-4 border-neutral-800 p-4"
           variants={iconVariants(3.5)}
@@ -99,6 +144,8 @@ const Technology = () => {
         >
           <BsGithub className="text-5xl text-white" />
         </motion.div>
+
+        {/* Postman */}
         <motion.div
           className="rounded-2xl border-4 border-neutral-800 p-4"
           variants={iconVariants(5.5)}
