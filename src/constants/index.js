@@ -4,13 +4,36 @@ import project3 from "../assets/projects/food blog.png";
 import project4 from "../assets/projects/landing java.png";
 import project5 from "../assets/projects/tasty corner.png";
 import project6 from "../assets/projects/portfolio.png";
+import gulfproject from "../assets/projects/gulf.png";
+import snowflake from "../assets/projects/snowflake.png";
+import gurukulam from "../assets/projects/gurukulam.png";
+export const HERO_CONTENT = `Full Stack Developer with 1+ year of experience building robust, scalable, and user-focused web and mobile applications. Passionate about solving real-world problems, delivering innovative solutions, and continuously learning to grow professionally.`;
 
-export const HERO_CONTENT = `Full Stack Developer building robust, scalable, and user-focused web and mobile applications. Passionate about solving real-world problems, delivering innovative solutions, and continuously learning to grow professionally.`;
-
-export const ABOUT_TEXT = `Hi, I’m Sheik Rizwan, a Full Stack Developer with hands-on experience in web and mobile development. I enjoy creating efficient software solutions, collaborating in dynamic teams, and continuously learning to enhance my skills and deliver high-quality results. My focus is on building applications that are not only functional but also user-friendly and scalable.`;
+export const ABOUT_TEXT = `Hi, I’m Sheik Rizwan, a Full Stack Developer with 1+ year of experience designing and delivering enterprise web, mobile, and Zoho ecosystem applications. Proficient in Java (Spring Boot), React.js, React Native, Flutter, and Zoho CRM integrations. I enjoy creating efficient software solutions, collaborating in dynamic teams, and continuously learning to enhance my skills and deliver high-quality results. My focus is on building applications that are not only functional but also user-friendly and scalable.`;
 
 // Projects section
 export const PROJECTS = [
+  {
+    title: "Gulf Oil Lubricants - Distributor & Warranty Management System",
+    image: gulfproject,
+    description:
+      "Architected a full-stack enterprise application using Spring Boot REST API, React.js web frontend, and React Native mobile app. Engineered 20+ secure RESTful APIs with JWT-based authentication and RBAC; integrated MySQL via Spring Data JPA/Hibernate. Configured Spring Security for route-level authorization and real-time data sync.",
+    technologies: ["Spring Boot", "React.js", "React Native", "MySQL", "JWT", "Hibernate"],
+  },
+  {
+    title: "Snowflake - Zoho CRM Bidirectional Sync Extension",
+    image: snowflake,
+    description:
+      "Built a bidirectional sync extension for Snowflake and Zoho CRM supporting import/export across 10 CRM modules published on the Zoho Marketplace. Built embedded CRM widgets using Zoho JS SDK and COQL with column filters, search bar, and multi-product grouping strategy.",
+    technologies: ["Snowflake", "Zoho CRM", "Zoho JS SDK", "COQL"],
+  },
+  {
+    title: "Educational Management Mobile App",
+    image: gurukulam,
+    description:
+      "Developed and deployed a Flutter Android app managing academic, administrative, and spiritual activities for an educational institution. Built role-based UI screens for Member, and Student roles including attendance and class schedules.",
+    technologies: ["Flutter", "Dart", "Android"],
+  },
   {
     title: "Bank Management System",
     image: project1,
@@ -71,3 +94,20 @@ export const CONTACT = {
 };
 
 export const ACCESS_KEY = '7b22c50e-9d41-44ee-a12a-aa08eef4b697';
+
+export const EXPERIENCES = [
+  {
+    year: "Mar 2025 – Present",
+    role: "Software Developer",
+    company: "Tiara Consulting Services India Pvt. Ltd.",
+    description: "Architected full-stack enterprise applications and bidirectional sync extensions. Engineered secure RESTful APIs with JWT-based authentication and configured real-time data sync across web and mobile platforms.",
+    technologies: ["Spring Boot", "React.js", "React Native", "MySQL", "Zoho CRM", "Hibernate"],
+  },
+  {
+    year: "Mar 2026 – May 2026",
+    role: "Mobile App Developer (Freelance)",
+    company: "Vasavi Gurukulam Shevapet",
+    description: "Developed and deployed a Flutter Android app for managing academic, administrative, and spiritual activities. Built role-based UI screens for seamless activity management.",
+    technologies: ["Flutter", "Dart", "Android"],
+  }
+];
