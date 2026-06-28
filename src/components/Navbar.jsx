@@ -15,10 +15,10 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-6 left-1/2 -translate-x-1/2 z-50 w-[90%] max-w-2xl">
+    <nav className="fixed top-4 md:top-6 left-1/2 -translate-x-1/2 z-50 w-[95%] md:w-[90%] max-w-2xl">
       {/* Desktop & Mobile Top Bar (Pill Shape) */}
-      <div className="flex items-center justify-between px-6 py-3 rounded-full glass-nav bg-neutral-950/60 shadow-[0_0_20px_rgba(168,85,247,0.15)] border border-neutral-800/60 backdrop-blur-xl">
-        <a href="#home" className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 tracking-wider">
+      <div className="flex items-center justify-between px-4 md:px-6 py-2 md:py-3 rounded-full glass-nav bg-neutral-950/60 shadow-[0_0_20px_rgba(168,85,247,0.15)] border border-neutral-800/60 backdrop-blur-xl">
+        <a href="#home" className="text-xl md:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500 tracking-wider">
           SR
         </a>
 
@@ -46,7 +46,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Dropdown */}
       {isOpen && (
-        <div className="md:hidden absolute top-16 left-0 right-0 glass-card rounded-2xl p-4 mt-2 flex flex-col gap-4 shadow-2xl border border-neutral-800/60 bg-neutral-950/90 backdrop-blur-xl text-center">
+        <div className="md:hidden absolute top-14 left-0 right-0 glass-card rounded-2xl p-4 mt-2 flex flex-col gap-2 shadow-2xl border border-neutral-800/60 bg-neutral-950/90 backdrop-blur-xl text-center max-h-[75vh] overflow-y-auto">
           {navLinks.map((link) => (
             <a
               key={link.name}

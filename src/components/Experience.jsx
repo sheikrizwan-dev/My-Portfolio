@@ -24,13 +24,13 @@ const Experience = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -50 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
-              className="mb-10 ml-10 relative group"
+              className="mb-10 ml-8 md:ml-10 relative group"
             >
               {/* Glowing Dot on Timeline */}
-              <div className="absolute -left-[51px] top-2 h-6 w-6 rounded-full border-4 border-neutral-950 bg-cyan-400 shadow-[0_0_15px_rgba(34,211,238,0.8)] group-hover:scale-125 group-hover:bg-purple-400 group-hover:shadow-[0_0_20px_rgba(168,85,247,0.8)] transition-all duration-300"></div>
+              <div className="absolute -left-[43px] md:-left-[51px] top-2 h-6 w-6 rounded-full border-4 border-neutral-950 bg-cyan-400 shadow-[0_0_15px_rgba(34,211,238,0.8)] group-hover:scale-125 group-hover:bg-purple-400 group-hover:shadow-[0_0_20px_rgba(168,85,247,0.8)] transition-all duration-300"></div>
 
               {/* Experience Card */}
-              <div className="glass-card p-6 md:p-8 rounded-3xl transition-all duration-500 shadow-xl border border-neutral-800/60 hover:border-cyan-400/50 hover:shadow-[0_0_30px_rgba(34,211,238,0.15)] group-hover:-translate-y-2">
+              <div className="glass-card p-5 md:p-8 rounded-3xl transition-all duration-500 shadow-xl border border-neutral-800/60 hover:border-cyan-400/50 hover:shadow-[0_0_30px_rgba(34,211,238,0.15)] group-hover:-translate-y-2">
                 <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 gap-4">
                   <div>
                     <h3 className="text-2xl font-bold text-neutral-100 group-hover:text-cyan-300 transition-colors duration-300">

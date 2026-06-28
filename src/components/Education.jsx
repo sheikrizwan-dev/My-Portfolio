@@ -41,7 +41,7 @@ const Education = () => {
             whileInView={{ opacity: 1, y: 0 }}
             initial={{ opacity: 0, y: 50 }}
             transition={{ duration: 0.6, delay: index * 0.2 }}
-            className="glass-card p-8 rounded-3xl relative overflow-hidden group hover:-translate-y-3 hover:shadow-[0_0_30px_rgba(34,211,238,0.15)] hover:border-cyan-500/50 transition-all duration-500 flex flex-col justify-between"
+            className="glass-card p-5 md:p-8 rounded-3xl relative overflow-hidden group hover:-translate-y-3 hover:shadow-[0_0_30px_rgba(34,211,238,0.15)] hover:border-cyan-500/50 transition-all duration-500 flex flex-col justify-between"
           >
             {/* Background Glow */}
             <div className="absolute -top-10 -right-10 h-32 w-32 bg-gradient-to-br from-cyan-500/20 to-purple-500/20 blur-2xl rounded-full group-hover:bg-cyan-400/30 transition-colors duration-500"></div>

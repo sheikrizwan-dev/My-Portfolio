@@ -19,7 +19,7 @@ const App = () => {
       </div>
       <div className="relative min-h-screen">
         <Navbar />
-        <div className="container mx-auto px-8 pt-20">
+        <div className="container mx-auto px-4 md:px-8 pt-20">
           <section id="home"><Hero /></section>
           <section id="about" className="scroll-mt-24"><About/></section>
           <section id="skills" className="scroll-mt-24"><Technology/></section>

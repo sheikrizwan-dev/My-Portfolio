@@ -38,7 +38,7 @@ const Project = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-3/5 max-w-2xl"
             >
-              <div className="glass-card p-8 rounded-3xl h-full flex flex-col justify-between group hover:border-cyan-400/50 hover:shadow-[0_0_30px_rgba(34,211,238,0.15)] transition-all duration-500 hover:-translate-y-2">
+              <div className="glass-card p-5 md:p-8 rounded-3xl h-full flex flex-col justify-between group hover:border-cyan-400/50 hover:shadow-[0_0_30px_rgba(34,211,238,0.15)] transition-all duration-500 hover:-translate-y-2">
                 <div>
                   <h6 className="mb-2 text-xl font-semibold text-neutral-100 group-hover:text-cyan-400 transition-colors duration-300">{project.title}</h6>
                   <p className="mb-4 text-neutral-400 font-light leading-relaxed">{project.description}</p>

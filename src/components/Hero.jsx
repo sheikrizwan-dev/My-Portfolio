@@ -28,7 +28,7 @@ const Hero = () => {
         {/* Headings */}
         <motion.h1 
           variants={item}
-          className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4"
+          className="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-4"
         >
           Sheik <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">Rizwan</span>
         </motion.h1>

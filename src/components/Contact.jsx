@@ -88,7 +88,7 @@ const Contact = () => {
           transition={{ duration: 0.8 }}
           className="w-full lg:w-1/2"
         >
-          <div className="glass-card p-8 rounded-3xl border border-neutral-800/60 shadow-xl hover:shadow-[0_0_30px_rgba(34,211,238,0.1)] transition-shadow duration-500">
+          <div className="glass-card p-5 md:p-8 rounded-3xl border border-neutral-800/60 shadow-xl hover:shadow-[0_0_30px_rgba(34,211,238,0.1)] transition-shadow duration-500">
             <form className="flex flex-col gap-6" onSubmit={onSubmit}>
               <div>
                 <label className="block text-sm font-medium text-neutral-400 mb-2">Your Name</label>
