@@ -1,5 +1,4 @@
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/mypic.jpg";
 import resume from "../assets/Sheik_Rizwan_Software_Developer_06-26.pdf";
 import { motion } from "framer-motion";
 import { FaLinkedin, FaGithub, FaDownload, FaArrowRight } from "react-icons/fa";
@@ -26,18 +25,6 @@ const Hero = () => {
         animate="visible"
         className="w-full max-w-4xl flex flex-col items-center"
       >
-        {/* Avatar with glowing floating rings */}
-        <motion.div variants={item} className="relative mb-12 group">
-          <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400 to-purple-500 blur-xl opacity-30 group-hover:opacity-60 transition-opacity duration-500"></div>
-          <div className="relative h-40 w-40 md:h-48 md:w-48 lg:h-56 lg:w-56 rounded-full overflow-hidden border border-neutral-700/50 shadow-2xl">
-            <img
-              src={profilePic}
-              alt="Sheik Rizwan"
-              className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
-            />
-          </div>
-        </motion.div>
-
         {/* Headings */}
         <motion.h1 
           variants={item}

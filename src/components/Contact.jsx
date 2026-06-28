@@ -1,6 +1,6 @@
 import { CONTACT, ACCESS_KEY } from "../constants";
 import { motion } from "framer-motion";
-import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
+import { FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { useState } from "react";
 
 const Contact = () => {
@@ -65,16 +65,6 @@ const Contact = () => {
             <div>
               <h4 className="text-lg font-medium text-neutral-200">Address</h4>
               <p className="text-neutral-400 font-light mt-1">{CONTACT.address}</p>
-            </div>
-          </div>
-
-          <div className="flex items-center gap-6 group">
-            <div className="w-14 h-14 bg-neutral-900 border border-neutral-800 rounded-2xl flex items-center justify-center text-purple-400 shadow-lg group-hover:scale-110 group-hover:border-purple-500/50 transition-all duration-300">
-              <FaPhoneAlt size={24} />
-            </div>
-            <div>
-              <h4 className="text-lg font-medium text-neutral-200">Phone</h4>
-              <p className="text-neutral-400 font-light mt-1">{CONTACT.phoneNo}</p>
             </div>
           </div>
 
