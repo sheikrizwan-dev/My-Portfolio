@@ -57,7 +57,7 @@ const Hero = () => {
             <FaArrowRight className="group-hover:translate-x-1 transition-transform" />
           </a>
           
-          <a
+          {/* <a
             href={resume}
             download="Sheik_Rizwan_CV.pdf"
             target="_blank"
@@ -66,15 +66,15 @@ const Hero = () => {
           >
             Resume
             <FaDownload />
-          </a>
+          </a> */}
         </motion.div>
 
         {/* Social Links */}
         <motion.div variants={item} className="flex gap-6 text-2xl">
-          <a href="https://www.linkedin.com/in/sheikrizwan27/" target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-cyan-400 transition-colors duration-300 hover:-translate-y-1 transform">
+          <a href="https://www.linkedin.com/in/sheik-rizwan/" target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-cyan-400 transition-colors duration-300 hover:-translate-y-1 transform">
             <FaLinkedin />
           </a>
-          <a href="https://github.com/sheikrizwan27?tab=repositories" target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-purple-400 transition-colors duration-300 hover:-translate-y-1 transform">
+          <a href="https://github.com/sheikrizwan-dev?tab=repositories" target="_blank" rel="noopener noreferrer" className="text-neutral-500 hover:text-purple-400 transition-colors duration-300 hover:-translate-y-1 transform">
             <FaGithub />
           </a>
         </motion.div>

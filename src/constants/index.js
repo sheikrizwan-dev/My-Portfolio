@@ -47,8 +47,8 @@ export const PROJECTS = [
     description:
       "Built a responsive website for managing hospital operations, including appointment scheduling, patient records, and staff management. Delivered a user-friendly interface with cross-device compatibility.",
     technologies: ["HTML", "CSS", "Bootstrap", "React JS", "Spring Boot", "PostgreSQL"],
-    livePreview: "https://sheikrizwan27.github.io/integrated-hospital-website/",
-    sourceCode: "https://github.com/sheikrizwan27/hospital-management",
+    livePreview: "https://sheikrizwan-dev.github.io/integrated-hospital-website/",
+    sourceCode: "https://github.com/sheikrizwan-dev/hospital-management",
   },
   {
     title: "Food Blog Website",
@@ -56,8 +56,8 @@ export const PROJECTS = [
     description:
       "Designed and developed a food blog website with a clean, responsive layout. Integrated sections for recipes, images, and toggle-based navigation for an enhanced user experience.",
     technologies: ["HTML", "CSS", "Bootstrap"],
-    livePreview: "https://sheikrizwan27.github.io/foodvlog/",
-    sourceCode: "https://github.com/sheikrizwan27/foodvlog",
+    livePreview: "https://sheikrizwan-dev.github.io/foodvlog/",
+    sourceCode: "https://github.com/sheikrizwan-dev/foodvlog",
   },
   {
     title: "Landing Page",
@@ -65,8 +65,8 @@ export const PROJECTS = [
     description:
       "Created a visually appealing and responsive landing page for a Full Stack Java course, featuring sections like Home, About, Overview, Curriculum, Feedback, and Contact.",
     technologies: ["HTML", "CSS"],
-    livePreview: "https://sheikrizwan27.github.io/landing-page/",
-    sourceCode: "https://github.com/sheikrizwan27/landing-page",
+    livePreview: "https://sheikrizwan-dev.github.io/landing-page/",
+    sourceCode: "https://github.com/sheikrizwan-dev/landing-page",
   },
   {
     title: "Tasty Corner",
@@ -82,14 +82,13 @@ export const PROJECTS = [
     description:
       "Designed and developed a personal portfolio website to showcase my projects, skills, and contact information. The website is fully responsive and features a clean, modern design.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    livePreview: "https://sheikrizwanportfolio.netlify.app",
+    livePreview: "https://sheikrizwan.dev.netlify.app",
   },
 ];
 
 // Contact information
 export const CONTACT = {
-  address: "Tirunelveli, Tamil Nadu",
-  email: "sheikrizwan27@gmail.com",
+  email: "sheikrizwan.dev@gmail.com",
 };
 
 export const ACCESS_KEY = '7b22c50e-9d41-44ee-a12a-aa08eef4b697';
